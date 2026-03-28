@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <title>Rakshith A V R — Portfolio</title>
+    <script src="https://kit.fontawesome.com/0d8250d6e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="intro-top">Circuits • Code • Systems</p>
+
+                <h1 class="intro-main">
+                    <span class="hero-greeting">Hi, I’m</span>
+                    <span class="hero-name">Rakshith A V R</span>
+                </h1>
+
+                <p class="hero-subtitle hero-subtitle--desktop">
+                    With knowledge in web development and a strong analytical approach, I build high-quality, user-centric solutions that ensure reliability and performance. I focus on writing clean, maintainable code and designing interfaces that are intuitive and efficient. My approach involves understanding requirements clearly and translating them into practical, scalable applications.
+                </p>
+                <p class="hero-subtitle hero-subtitle--mobile">
+                    With knowledge in web development and a strong analytical approach, I build high-quality, user-centric solutions that ensure reliability and performance. I focus on writing clean, maintainable code and designing interfaces that are intuitive and efficient. My approach involves understanding requirements clearly and translating them into practical, scalable applications.
+                </p>
+                <div class="hero-education">
+                <p class="edu-label">Education & Affiliations</p>
+                
+                <div class="edu-logos">
+                    <img src="images/Logo-iit-.png" alt="IIT Madras">
+                    <img src="images/KPRIET-512x512.DYV19rwa.webp" alt="KPR Institute">
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG20251126125457.heic.png" alt="load again">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                    Driven by a passion for technology and problem-solving, this journey is rooted in a strong foundation in <b class="abc">Electronics and Communication Engineering </b>, alongside pursuing an <b class="abc">IIT Madras BS Degree in Data Science </b>. With a growing interest in web development, embedded systems, and emerging technologies, the focus lies in building solutions that seamlessly combine logic with creativity.
+
+                    Constantly exploring new ideas through hands-on projects, certifications, and real-world challenges, the aim is to craft intuitive and impactful digital experiences. The approach is simple — learn continuously, adapt quickly, and build meaningfully in an ever-evolving tech landscape.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br> Python, C, Java (Basics)</li>
+                            <li><span>Web Development</span><br> HTML, CSS, JavaScript</li>
+                            <li><span>Core Engineering</span><br> Electronics, Embedded Systems (Basics)</li>
+                            <li><span>Data & Analytics</span><br> Data Science (IITM BS), Problem Solving</li>
+                            <li><span>Soft Skills</span><br> Leadership, Teamwork, Communication</li>
+                        </ul>
+
+                    </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Present</span><br>Working on Personal Projects </br> </li>
+                            <li><span>Aug 2025 – Oct 2025</span><br>Embedded Systems Intern — Wayspire<br></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025 -2029 </span><br>IITM BS Data Science</li>
+                            <li><span>2025 -2029 </span><br>KPR Institute Of Engineering and Technology</li>
+                            <li><span>2016 - 2025</span><br>Satchidananda Jothi Nikethan International School</li>
+                            <!-- <li><span>App Development</span><br>Building Android/iOS apps</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- services section ------->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">What I Do ?</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                        <p>Designing and developing responsive, performance-driven web applications with a focus on clean architecture, usability, and seamless user experience. Emphasis on writing scalable, maintainable code while ensuring modern design standards.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Embedded Systems</h2>
+                    <p>Developing solutions using embedded systems and hardware interfacing, with a focus on microcontroller-based design and real-time applications. Experienced in working with sensor integration, system optimization, and low-level programming to build efficient and reliable systems.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data Analysis</h2>
+                    <p>
+                        Performing data analysis and interpretation to extract meaningful insights from structured datasets. Skilled in data cleaning, visualization, and basic statistical analysis to support informed decision-making.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+     <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Gemini_Generated_Image_waqicxwaqicxwaqi.png">
+                    <div class="layer">
+                        <h3>CubeSat Development Project</h3>
+                            <p>
+                            Worked on the development of a CubeSat-based system, focusing on embedded integration, sensor modules, and communication systems. 
+                            Contributed to building a compact, efficient satellite mode designed for real-time data acquisition and analysis.
+                            </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/proj 2.png">
+                    <div class="layer">
+                    <h3>Hydrotonics</h3>
+                        <p>This is a project on hydrotonics which comines the idea of hydrophonics and aquaphonics. Soon the github link will be attached </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pro 3.png">
+                    <div class="layer">
+                    <h3>Wearable Safety Device</h3>
+                        <p>This is an wearable saftey device which is of coin size.The details of the project and the document will be attached shortly</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+
+
+     <!-- contact -->
+
+     <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>avr9198@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-8300066003</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/RakshithAV24836"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/_.rakshith_avr._?igsh=Y2Z4MG9wdmw0cmxy"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rakshith-a-v-r-5a24ba376"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-Mail" placeholder="Your E-mail id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright © Rakshith.A.V.R</p>
+        </div>
+
+
+
+
+
+    <!-- the below script tag is used to add the jss file for that change slide in about me section -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-250px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkMAbtoBbXVrjkr6nzRsNN6UKK5bbdvNl7yS0Q5ObHR0cqy6BmWP_H7I50bcWnKco/exec'
+        const form = document.forms['contact-form']
+        const status = document.getElementById("form-status")
+        const button = form.querySelector("button")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+
+        button.disabled = true
+        button.textContent = "Sending..."
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => response.json())
+            .then(data => {
+                status.innerHTML = "✅ Message sent successfully!"
+                status.style.color = "#00ff99"
+                form.reset()
+                button.disabled = false
+                button.textContent = "Submit"
+            })
+            .catch(error => {
+                status.innerHTML = "❌ Something went wrong!"
+                status.style.color = "red"
+                button.disabled = false
+                button.textContent = "Submit"
+                console.error(error)
+            })
+        })
+    </script>
+
+    <script>
+const sections = document.querySelectorAll("section");
+
+window.addEventListener("scroll", () => {
+    sections.forEach(sec => {
+        const top = sec.getBoundingClientRect().top;
+        if(top < window.innerHeight - 100){
+            sec.classList.add("show");
+        }
+    });
+});
+</script>
+
+<script>
+window.addEventListener("scroll", () => {
+    const nav = document.querySelector("nav");
+
+    if(window.scrollY > 50){
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
+</script>
+
+
+<script>
+window.addEventListener("scroll", () => {
+    sections.forEach(sec => {
+        const top = sec.getBoundingClientRect().top;
+
+        if(top < window.innerHeight - 100){
+            sec.classList.add("show");
+        }
+    });
+});
+</script>
+</body>
+</html>
